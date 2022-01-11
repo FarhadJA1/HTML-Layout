@@ -1,0 +1,101 @@
+body{
+    background-color: turquoise;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    
+}
+.links .home{
+    border: 3px solid navy;
+    background-color: yellow;
+    width: 100px;
+    text-align: center;
+    height: 30px;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.links .about-me{
+    border: 3px solid navy;
+    background-color: yellow;
+    font-size: 20px;
+    width: 110px;
+    text-align: center;
+    margin-right: 5px;
+}
+.links .product{
+    border: 3px solid navy;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    margin-right: 5px;
+}
+.links .services{
+    border: 3px solid navy;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    margin-right: 5px;
+}
+.links .maps{
+    border: 3px solid navy;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    margin-right: 5px;
+}
+.links .contact-me{
+    border: 3px solid navy;
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    width: 100px;
+    margin-right: 5px;
+}
+
+.all-contents{
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.all-contents .map{
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    background-color: grey;
+    padding-right: 250px;
+}
+.all-contents .self-info{
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    padding-right: 300px;
+    background-color: yellow;
+
+}
+.all-contents .statistics{
+    width: 300px;
+    height: 600px;
+    text-align: center;
+    padding-left: 150px;
+    background-color: navy;
+}
+.all-contents .map .loc-map{
+    
+    color: turquoise;
+    padding-left: 50px;
+    
+}
+.all-contents .self-info .info{
+    color: navy;
+    
+}
+.all-contents .statistics .satisfaction{
+    color: yellow;
+    
+}
